@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css-reset.css" />
+    <link rel="stylesheet" href="./styling.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quattrocento+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script src="scripts.js" async></script>
+    <script
+      src="https://kit.fontawesome.com/60a32e74ac.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Ben Bushell - Software Developer</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div>
+        <a href="#" class="logo">Ben Bushell</a>
+      </div>
+      <a id="burger">
+        <i class="fa fa-bars"></i>
+      </a>
+      <div class="nav-links" id="nav-links">
+        <a href="#personal-statement">About</a>
+        <a href="#skills-section">Skills</a>
+        <a href="#portfolio-section">Portfolio</a>
+        <a href="#footer">Contact</a>
+      </div>
+    </nav>
+    <main>
+      <img
+        src="./fundamentalists_ben_bushell.jpeg"
+        alt="profile"
+        class="prof-img"
+      />
+      <h1>Ben Bushell</h1>
+      <h2 id="job-title">Software Developer</h2>
+      <section class="statement-section">
+        <p id="personal-statement">
+          In 2022 after 11 years as a sales advisor/manager I decided to take
+          the jump and make my dream of becoming a software developer a reality.
+          I found my passion for coding when my sales department needed detailed
+          information on our sales performance. I took it upon myself to learn
+          excel VBA in my own time so I could provide that information to front
+          line employees and senior leaders, allowing us to spot opportunities
+          to improve our performance. This ignited a spark inside me, and I
+          decided to start learning software development through various
+          resources such as freeCodeCamp, team treehouse and YouTube. The
+          opportunity then presented itself to join Northcoders on a 3-month
+          bootcamp program and I could not resist. Now a Northcoders graduate I
+          am ready to take the next step and begin my career as a software
+          developer.
+        </p>
+      </section>
+      <h2 id="skills-title">Technical Skills</h2>
+      <section id="skills-section">
+        <div class="skills-card">
+          <h3>Languages</h3>
+          <ul>
+            <li>JavaScript</li>
+          </ul>
+        </div>
+        <div class="skills-card">
+          <h3>Front End</h3>
+          <ul>
+            <li>React</li>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>Bootstrap</li>
+          </ul>
+        </div>
+        <div class="skills-card">
+          <h3>Back End</h3>
+          <ul>
+            <li>Node.js</li>
+            <li>SQL</li>
+            <li>Postgres-SQL</li>
+            <li>Express</li>
+            <li>Axios</li>
+          </ul>
+        </div>
+        <div class="skills-card">
+          <h3>Testing</h3>
+          <ul>
+            <li>Jest</li>
+            <li>Supertest</li>
+          </ul>
+        </div>
+        <div class="skills-card">
+          <h3>Additional Tools</h3>
+          <ul>
+            <li>Git</li>
+            <li>Trello</li>
+            <li>Miro</li>
+          </ul>
+        </div>
+      </section>
+      <h3 class="portfolio-title">Portfolio</h3>
+      <section id="portfolio-section">
+        <a
+          href="https://be-bb-news.herokuapp.com/"
+          class="portfolio-card"
+          target="_blank"
+        >
+          <h3>NC NEWS API</h3>
+          <h4>Backend API</h4>
+          <p>
+            A dummy news API built using SQL, NodeJS, Express, Postgres-SQL and
+            Jest for TDD. Hosted on Heroku.
+          </p>
+        </a>
+        <a
+          href="https://fe-bb-news.netlify.app/"
+          class="portfolio-card"
+          target="_blank"
+        >
+          <h3>BB NEWS</h3>
+          <h4>Frontend web application</h4>
+          <p>
+            A dummy news web app built using React, HTML, CSS and Bootstrap.
+            Users can sort, like, comment on the articles as well as delete
+            their own comments. The app is hosed with Netlify.
+          </p>
+        </a>
+      </section>
+    </main>
+    <footer id="footer">
+      <a href="https://github.com/benboosh01" target="_blank"
+        ><i class="fa-brands fa-github"></i
+      ></a>
+      <a
+        href="https://www.linkedin.com/in/ben-bushell-108901a2/"
+        target="_blank"
+        ><i class="fa-brands fa-linkedin"></i
+      ></a>
+      <a href="mailto:ben.bushell87@icloud.com">
+        <i class="fa-solid fa-envelope"></i>
+      </a>
+    </footer>
+  </body>
+</html>

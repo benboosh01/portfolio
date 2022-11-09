@@ -1,0 +1,214 @@
+html {
+    font-family: 'Quattrocento Sans', sans-serif;
+}
+
+.logo {
+    text-decoration: none;
+    font-size: 1.5em;
+    color: #EFF5F5;
+}
+
+.navbar {
+    display: flex;
+    text-decoration: none;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #393E46;
+    padding: 20px;
+}
+
+.nav-links {
+    display: flex;
+    gap: 10px;
+}
+
+.nav-links-show {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.nav-links > a, .nav-links-show > a {
+    width: 100px;
+    text-decoration: none;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #D6E4E5;
+    color: black;
+}
+
+.nav-links > a:hover, .nav-links-show > a:hover {
+    background-color: #EFF5F5;
+}
+
+#burger {
+    display: none;
+}
+
+#burger > i {
+    color: #EFF5F5;
+}
+
+.prof-img {
+    max-width: 200px;
+    border-radius: 100%;
+    margin: 30px auto 0;
+}
+
+h1 {
+    text-align: center;
+    padding: 20px 0 0;
+}
+
+#job-title {
+    margin: 0 auto;
+    padding: 0 0 20px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+#personal-statement {
+    padding: 30px;
+    max-width: 768px;
+    margin: 0 auto;
+}
+
+.statement-section {
+    background-color: #6D9886;
+}
+
+.statement-section > h2 {
+    padding: 30px 0 0;
+    text-align: center;
+}
+
+#skills-title {
+    margin: 0 auto; 
+    padding-top: 30px;
+}
+
+#skills-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-top: 30px;
+    justify-content: center;
+}
+
+.skills-card {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 250px;
+    background-color: #F2E7D5;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.skills-card > h3 {
+    border-bottom: solid 1px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+
+.skills-card > ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0;
+}
+
+.portfolio-title {
+    text-align: center;
+    padding: 30px 0;
+    font-size: 1.4em;
+}
+
+#portfolio-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.portfolio-card {
+    width: 350px;
+    height: 300px;
+    background-color: #6D9886;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.portfolio-card:hover {
+    background-color: #BCEAD5;
+}
+
+.portfolio-card > h3, .portfolio-card > h4 {
+    text-align: center;
+}
+
+footer {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    background-color: #393E46;
+    height: 75px;
+    margin-top: 30px;
+    align-items: center;
+}
+
+footer > a {
+    color: #F7F7F7;
+    font-size: 1.6em;
+}
+
+@media (max-width: 576px) {
+    .logo {
+        position: absolute;
+        left: 20px;
+    }
+
+    .navbar {
+        overflow: hidden;
+        flex-direction: column;
+        min-height: 70px;
+    }
+
+    .nav-links {
+        display: none;
+    }
+
+    .nav-links-show {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 60px;
+        width: 100%;
+    }
+
+    .nav-links-show > a {
+        width: 100%;
+    }
+
+    #burger {
+        display: flex;
+        color: black;
+        font-size: 1.4em;
+        position: absolute;
+        right: 20px;
+        top: 25px;
+    }
+}
