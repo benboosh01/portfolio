@@ -8,13 +8,18 @@ html {
     color: #EFF5F5;
 }
 
+.nav-wrapper {
+    background-color: #393E46;
+}
+
 .navbar {
     display: flex;
     text-decoration: none;
     justify-content: space-between;
     align-items: center;
-    background-color: #393E46;
     padding: 20px;
+    max-width: 992px;
+    margin: 0 auto;
 }
 
 .nav-links {
@@ -99,6 +104,8 @@ main {
     gap: 20px;
     padding-top: 30px;
     justify-content: center;
+    max-width: 992px;
+    margin: 0 auto;
 }
 
 .skills-card {
@@ -145,11 +152,13 @@ main {
     flex-wrap: wrap;
     gap: 20px;
     justify-content: center;
+    max-width: 992px;
+    margin: 0 auto;
 }
 
 .portfolio-card {
     width: 350px;
-    height: 300px;
+    height: 350px;
     background-color: #6D9886;
     border-radius: 10px;
     padding: 20px;
