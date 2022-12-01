@@ -82,10 +82,12 @@ main {
     padding: 30px;
     max-width: 768px;
     margin: 0 auto;
+    font-size: 1.1em;
 }
 
 .statement-section {
-    background-color: #6D9886;
+    border-top: solid #393E46;
+    border-bottom: solid #393E46;
 }
 
 .statement-section > h2 {
@@ -102,10 +104,11 @@ main {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
-    padding-top: 30px;
+    padding: 40px 0;
     justify-content: center;
     max-width: 992px;
     margin: 0 auto;
+    border-bottom: solid #393E46;
 }
 
 .skills-card {
@@ -113,7 +116,8 @@ main {
     flex-direction: column;
     width: 200px;
     height: 250px;
-    background-color: #F2E7D5;
+    background-color: #393E46;
+    color: #EFF5F5;
     padding: 20px;
     border-radius: 10px;
 }
@@ -138,7 +142,7 @@ main {
     text-align: center;
     padding: 10px 0 20px;
     font-size: 1.4em;
-    margin: 50px 0 20px;
+    margin: 20px 0 20px;
 }
 
 .portfolio-title > p {
@@ -159,14 +163,14 @@ main {
 .portfolio-card {
     width: 350px;
     height: 350px;
-    background-color: #6D9886;
+    background-color: #D6E4E5;
+    color: black;
     border-radius: 10px;
     padding: 20px;
     display: flex;
     flex-direction: column;
     gap: 20px;
     text-decoration: none;
-    color: black;
     font-size: 1.1em;
 }
 
@@ -175,7 +179,8 @@ main {
 }
 
 .portfolio-card:hover {
-    background-color: #BCEAD5;
+    background-color: #393E46;
+    color: #EFF5F5;
 }
 
 .portfolio-card > h3, .portfolio-card > h4 {
