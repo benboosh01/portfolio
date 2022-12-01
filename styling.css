@@ -65,7 +65,7 @@ h1 {
 
 #job-title {
     margin: 0 auto;
-    padding: 0 0 20px;
+    padding: 0 0 10px;
 }
 
 main {
@@ -152,6 +152,10 @@ main {
     color: black;
 }
 
+.portfolio-card > p {
+    font-size: 0.9em;
+}
+
 .portfolio-card:hover {
     background-color: #BCEAD5;
 }
@@ -160,7 +164,7 @@ main {
     text-align: center;
 }
 
-footer {
+footer  {
     display: flex;
     gap: 20px;
     justify-content: center;
@@ -173,6 +177,20 @@ footer {
 footer > a {
     color: #F7F7F7;
     font-size: 1.6em;
+}
+
+.contact-links-ul {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0 0 20px 0;
+}
+
+.contact-links-ul > a {
+    font-size: 1.6em;
+    color: #393E46;
 }
 
 @media (max-width: 576px) {
