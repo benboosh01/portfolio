@@ -88,6 +88,7 @@ main {
 .statement-section {
     border-top: solid #393E46;
     border-bottom: solid #393E46;
+    max-width: 992px;
 }
 
 .statement-section > h2 {
