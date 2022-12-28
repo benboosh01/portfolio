@@ -81,7 +81,7 @@ main {
 #personal-statement {
     padding: 30px;
     margin: 0 auto;
-    font-size: 1.1em;
+    font-size: 1em;
 }
 
 .statement-section {
@@ -109,7 +109,6 @@ main {
     justify-content: center;
     max-width: 992px;
     margin: 0 auto;
-    border-bottom: solid #393E46;
 }
 
 .skills-card {
@@ -143,13 +142,15 @@ main {
     text-align: center;
     padding: 10px 0 20px;
     font-size: 1.4em;
-    margin: 20px 0 20px;
+    margin: 20px auto;
+    max-width: 992px;
+    border-top: solid #393E46;
 }
 
 .portfolio-title > p {
     font-size: 0.7em;
-    max-width: 768px;
     margin: 0 auto;
+    padding: 0 40px;
 }
 
 #portfolio-section {
